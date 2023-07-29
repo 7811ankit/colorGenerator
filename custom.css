@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran&family=Grand+Hotel&family=Pangolin&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    /* background-color: black; */
+    transition: 2sec;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30rem;
+    /* height: 15rem; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
